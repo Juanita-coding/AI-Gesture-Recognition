@@ -1,0 +1,50 @@
+body{
+    background-color: plum;
+}
+
+.heading 
+{
+    font-size: 23px;
+    width:100%;
+    margin:0px;
+    font-family:fantasy;
+    color:black;
+}
+
+.note{
+   font-size: 15px;
+   color:red;
+}
+
+.copy_right_footer
+{
+    position:fixed;
+    color:black;
+    bottom:0;
+    width:100%;
+    background-color: seashell;
+    line-height:3;
+    text-align:center;
+}
+
+canvas
+{
+    animation-name:example;
+    animation-duration: 5s;
+    animation-iteration-count:infinite ;
+    border-radius:20px;
+    border:5px solid black;
+}
+
+@keyframes example 
+{
+    from {
+        box-shadow:5px 5px 30px powderblue;
+    
+    }
+
+    to {
+         box-shadow:5px 5px 38px pink;
+    }
+    
+}
